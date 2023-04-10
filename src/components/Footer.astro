@@ -1,0 +1,27 @@
+---
+import Social from "./Social.astro";
+---
+
+<style>
+  ul {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <p>
+    Learn more about my projects on <Social
+      platform="github"
+      username="formaldehyd"
+    />!
+  </p>
+
+  <p>Find me at:</p>
+  <ul>
+    <li><Social platform="facebook" username="test" /></li>
+    <li><Social platform="youtube" username="formaldehyd" /></li>
+    <li><Social platform="instagram" username="test" /></li>
+  </ul>
+</footer>
