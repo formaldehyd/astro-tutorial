@@ -5,7 +5,7 @@ import Footer from "../components/Footer.astro";
 
 const { pageTitle } = Astro.props;
 
-const bodyColor = "#696969";
+const bodyColor = "#d3d3d3";
 ---
 
 <html lang="en">
@@ -18,6 +18,7 @@ const bodyColor = "#696969";
     <style define:vars={{ bodyColor }}>
       body {
         background: var(--bodyColor);
+        padding: 32px 64px;
       }
     </style>
   </head>
